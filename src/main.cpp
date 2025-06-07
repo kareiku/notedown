@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
-    NotedownWindow window;
+    MainWindow window;
     window.showMaximized();
 
     return QApplication::exec();

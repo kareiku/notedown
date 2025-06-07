@@ -1,9 +1,9 @@
 #include "mainwindow.h"
 
-NotedownWindow::NotedownWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWindow) {
+MainWindow::MainWindow(QWidget *parent): QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
 }
 
-NotedownWindow::~NotedownWindow() {
+MainWindow::~MainWindow() {
     delete ui;
 }

@@ -2,13 +2,13 @@
 
 #include <ui_mainwindow.h>
 
-class NotedownWindow : public QMainWindow {
+class MainWindow : public QMainWindow {
     Q_OBJECT
 
 public:
-    explicit NotedownWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
 
-    ~NotedownWindow() override;
+    ~MainWindow() override;
 
 private:
     Ui::MainWindow *ui;
